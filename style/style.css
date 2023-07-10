@@ -15,12 +15,12 @@ header section
     column-gap: 80px;
     margin-bottom: 180px;
 }
-.header div{
+
+.header div {
     width: 100%;
 }
-.header-content {
 
-}
+.header-content {}
 
 .content-title {
     color: #272727;
@@ -50,6 +50,54 @@ header section
 
 .header-pic {
     display: flex;
-justify-content: center;
+    justify-content: center;
     margin-top: 50px;
+}
+
+/* ------------------
+bonus section
+------------------ */
+/*------------------
+ optional section
+------------------- */
+/* ----------------- 
+hot deal section 
+--------------------- */
+.hot-deal-section {
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, .05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 160px;
+    padding: 100px 400px;
+    margin-bottom: 130px;
+}
+.hot-deal-section div{
+    width: 100%;
+}
+.discount{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.span {
+    color: #E55473;
+}
+
+.discount-info {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
