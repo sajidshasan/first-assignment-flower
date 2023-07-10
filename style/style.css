@@ -20,8 +20,6 @@ header section
     width: 100%;
 }
 
-.header-content {}
-
 .content-title {
     color: #272727;
     font-size: 80px;
@@ -82,6 +80,7 @@ hot deal section
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .discount-title {
@@ -179,5 +178,38 @@ subscribe section
     font-size: 16px;
     font-weight: 400;
     margin-right: 16px;
-    ;
+}
+/* ==================
+footer section
+=================== */
+.footer{
+    background: #111010;
+    text-align: center;
+    padding: 120px 600px;
+
+}
+.footer-title{
+    font-size: 48px;
+font-weight: 800;
+color: white;
+}
+.flower{
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+}
+.footer-info{
+    color: rgba(255, 255, 255, 0.70);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+.copyright-alert{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
 }
