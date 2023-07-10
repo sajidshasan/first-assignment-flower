@@ -55,6 +55,55 @@ header section
 /* ------------------
 bonus section
 ------------------ */
+
+.bonus-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bonus-title {
+    color: #272727;
+    text-align: center;
+
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.bonus-info {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.rectangle-flowers{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
+margin: 0px 200px 130px;
+}
+
+.rectangle-flower{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+height:550px;
+display: flex;
+align-items:center;
+justify-content: center;
+width: 100%;
+}
+.img2{
+    background: rgba(5, 151, 160, 0.15);
+
+}
+.img3{
+    background: rgba(71, 125, 17, 0.15);
+}
 /*------------------
  optional section
 ------------------- */
@@ -130,6 +179,11 @@ insta section
     font-weight: 400;
     line-height: 30px;
 }
+.insta-photos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
 .insta-photos a img {
     margin-right: 24px;
@@ -179,37 +233,42 @@ subscribe section
     font-weight: 400;
     margin-right: 16px;
 }
+
 /* ==================
 footer section
 =================== */
-.footer{
+.footer {
     background: #111010;
     text-align: center;
     padding: 120px 600px;
 
 }
-.footer-title{
+
+.footer-title {
     font-size: 48px;
-font-weight: 800;
-color: white;
+    font-weight: 800;
+    color: white;
 }
-.flower{
+
+.flower {
     color: #E55473;
-font-size: 48px;
-font-weight: 800;
+    font-size: 48px;
+    font-weight: 800;
 }
-.footer-info{
+
+.footer-info {
     color: rgba(255, 255, 255, 0.70);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-top: 24px;
-margin-bottom: 32px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
-.copyright-alert{
+
+.copyright-alert {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
