@@ -251,10 +251,6 @@ hot deal section
 insta section
 =============== */
 .insta-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0px 200px 130px;
 }
 
@@ -278,13 +274,15 @@ insta section
 .insta-photos {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    align-items: center;
+    gap: 24px;
 }
-
-.insta-photos a img {
-    width: auto;
+.insta-photo{
+    margin: 0px;
 }
-
+.insta-photo img{
+width: 200px;
+}
 /* ==================
 subscribe section
 ===================== */
